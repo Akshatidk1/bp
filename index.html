@@ -27,6 +27,12 @@
     html.lt-ie-10 .ie-panel {
       display: block;
     }
+    @font-face {
+        font-family: 'Victorian Std Regular';
+        src: url('/path/to/fonts/VictorianStd-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
   </style>
 </head>
 
@@ -668,24 +674,58 @@
         href="https://www.templatemonster.com/landing-page-template/spectrum-architecture-one-page-modern-html-landing-page-template-75697.html"
         target="_blank"><img class="img-responsive" src="images/banner-bottom-2050x310.jpg" alt="" width="2050"
           height="310" /></a></section>
-    <footer class="section novi-background bg-cover section-sm footer-classic context-dark" id="contacts">
-      <div class="container">
-        <a class="brand wow blurIn" href="index.html">
-          <img src="images/footer-logo.png" alt="" width="400" height="400" /></a>
-        <ul class="contacts-modern footer-classic-list">
-          <li class="wow fadeInLeft"><a class="heading-3" href="tel:#">1-800-901-234</a></li>
-          <li class="wow fadeInRight"><a class="heading-3" href="mailto:#">info@demolink.org</a></li>
-        </ul>
-        <ul class="list-inline list-inline-xxl list-social footer-classic-list">
-          <li><a class="icon novi-icon mdi mdi-facebook" href="#"></a></li>
-          <li><a class="icon novi-icon mdi mdi-instagram" href="#"></a></li>
-          <li><a class="icon novi-icon mdi mdi-youtube-play" href="#"></a></li>
-        </ul>
-        <p class="rights"><span>&copy;&nbsp; </span><span
-            class="copyright-year"></span><span>&nbsp;</span><span>Spectrum</span><span>. All Rights Reserved. Design by
-            Zemez</span></p>
-      </div>
-    </footer>
+          <footer class="section novi-background bg-cover section-sm footer-classic context-dark p-5" id="contacts">
+            <div class="container mb-0">
+                <!-- Brand and Logo -->
+                <a class="brand wow blurIn" href="index.html">
+                    <img src="images/footer-logo.png" alt="Logo" class="mx-auto" width="300" height="300"/>
+                </a>
+        
+                <!-- Main Footer Content -->
+                <div class="text-right mb-5">
+                    <h1 class="text-4xl font-bold text-yellow-500" style="font-family: 'Victorian Std Regular', serif;">Bhumi Properties Delhi NCR</h1>
+                    <p class="text-yellow-300 italic mt-2 custom-style" style="font-size: 20px !important; color: #fff;">Humanity Is Our First Priority</p>
+                </div>
+        
+                <!-- Social Media Links -->
+                <div class="mt-8 text-center">
+                    <p class="mb-3" style="font-size: 20px !important; color: #fff !important; font-weight: 500 !important;">Follow us : bhumi.properties_delhi_ncr</p>
+                    <ul class="list-inline list-inline-xxl list-social footer-classic-list flex justify-center space-x-4">
+                        <li>
+                          <a class="icon novi-icon mdi mdi-facebook text-blue-600" href="#">
+                          <!-- <img src="https://placehold.co/20x20/f00" alt="Facebook"> -->
+                          </a>
+                        </li>
+                        <li>
+                          <a class="icon novi-icon mdi mdi-instagram text-pink-600" href="#">
+                            <!-- <img src="https://placehold.co/20x20/f0f" alt="Instagram"> -->
+                          </a>
+                        </li>
+                        <li>
+                          <a class="icon novi-icon mdi mdi-youtube-play text-red-600" href="#">
+                            <!-- <img src="https://placehold.co/20x20/f00" alt="YouTube"> -->
+                          </a>
+                        </li>
+                        <li>
+                          <a class="icon novi-icon mdi mdi-twitter text-blue-400" href="#">
+                            <!-- <img src="https://placehold.co/20x20/00f" alt="Twitter"> -->
+                          </a>
+                        </li>
+                        <li>
+                          <a class="icon novi-icon mdi mdi-linkedin text-blue-700" href="#">
+                            <!-- <img src="https://placehold.co/20x20/0077b5" alt="LinkedIn"> -->
+                          </a>
+                        </li>
+                    </ul>
+                </div>
+        
+                <!-- Footer Copyright -->
+                <p class="rights text-center mt-8" style="color: #fff;">
+                  <span>&copy; <span id="current-year"></span> Bhumi Properties Delhi NCR. All Rights Reserved.</span>
+                </p>
+            </div>
+        </footer>
+        
   </div>
   <div class="snackbars" id="form-output-global"></div>
   <script src="js/core.min.js"></script>
